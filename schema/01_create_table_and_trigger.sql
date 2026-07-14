@@ -1,0 +1,20 @@
+CREATE TABLE salary2026 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    employee_id VARCHAR(15),
+    date_of_join DATE,
+    designation VARCHAR(100) NOT NULL,
+    depart VARCHAR(100) NOT NULL,
+    basic DECIMAL(10,2),
+    hra DECIMAL(10,2),
+    conv DECIMAL(10,2),
+    spec DECIMAL(10,2),
+    tot DECIMAL(10,2),
+    epe DECIMAL(10,2),
+    epr DECIMAL(10,2),
+    prof DECIMAL(10,2),
+    tds DECIMAL(10,2),
+    adv DECIMAL(10,2),
+    tot_ded DECIMAL(10,2),
+    net_pay DECIMAL(10,2)
+);
