@@ -1,3 +1,5 @@
+-- NOTE: Update the file path below to match your local MySQL 'secure_file_priv' 
+-- directory before running. Find yours with: SHOW VARIABLES LIKE 'secure_file_priv';
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/IPS DATA SQL.csv'
 INTO TABLE salary2026
 FIELDS TERMINATED BY ','
